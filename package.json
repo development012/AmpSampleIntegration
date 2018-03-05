@@ -1,0 +1,28 @@
+{
+  "name": "betabulls.docpad",
+  "version": "0.1.0",
+  "description": "",
+  "engines": {
+    "node": "~4.3.2",
+    "npm": "~3.8.1"
+  },
+  "dependencies": {
+    "docpad": "~6.79.4",
+    "docpad-plugin-coffeescript": "~2.6.0",
+    "docpad-plugin-eco": "~2.2.1",
+    "docpad-plugin-ghpages": "~2.6.1",
+    "docpad-plugin-iconmonstr": "~2.0.18",
+    "docpad-plugin-livereload": "~2.9.0",
+    "docpad-plugin-marked": "~2.4.0",
+    "docpad-plugin-menu": "~2.1.0",
+    "docpad-plugin-partials": "~2.12.0",
+    "docpad-plugin-sass": "~2.8.0",
+    "docpad-plugin-sitemap": "~2.4.0",
+    "docpad-plugin-text": "~2.5.0"
+  },
+  "devDependencies": {},
+  "main": "node_modules/docpad/bin/docpad-server",
+  "scripts": {
+    "start": "node_modules/docpad/bin/docpad-server"
+  }
+}

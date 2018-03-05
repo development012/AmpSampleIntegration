@@ -1,0 +1,52 @@
+ /* //////////////////////////////////////////////////////////////////////////////////////////////
+      //   Default Modal Styles   //
+  ////////////////////////////////////////////////////////////////////////////////////////////// */
+  /*   This is the background overlay   */
+  .backgroundOverlay {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      background: #000000;
+      opacity: .85;
+      filter: alpha(opacity=85);
+      -moz-opacity: .85;
+      z-index: 101;
+      display: none;
+  }
+  /*   This is the Popup Window   */
+  .delayedPopupWindow {
+    display: none;
+    position: fixed;
+    width: 690px;
+    height: 670px;
+    top: 37%;
+    left: 55%;
+    margin-left: -400px;
+    margin-top: -200px;
+    background-color: #efefef;
+    border: 2px solid #333;
+    z-index: 102;
+    padding: 10px 20px;
+}
+  /*   This is the closing button  */
+  #btnClose {
+      display: block;
+      text-align: right;
+      text-decoration: none;
+      color: #BCBCBC;
+      width: 27px;
+      margin-left: 93%;
+  }
+  /*   This is the closing button hover state  */
+  #btnClose:hover {
+      color: #c90c12;
+  }
+  .jotform{
+      height:100% ;
+  }

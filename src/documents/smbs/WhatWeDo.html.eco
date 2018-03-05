@@ -1,0 +1,85 @@
+---
+title: What We Do
+layout: smbs-default
+class: betabulls-enterprise-about
+entPageOrder: 2
+script:
+style:
+url : /smbs/WhatWeDo
+---
+<span class="betabulls-enterprise-services">
+				<div id="headerwrap" class="pure-g-r headerwrap-whatwedo services">
+	<div class="pure-u-1 center">
+		<div class="banner-txt">
+			<h1>Strategy + Technical Expertise + Lean Implementation = YOUR SUCCESS</h1>
+			<h4></h4>
+		</div>
+	</div><!-- pure-u-1-->
+</div><!-- headerwrap -->
+<div style="width: 100%; margin: 0px auto; padding: 0px 0px 0px 0px; text-align: center;">
+	<h2 style=" font-weight:500;" align="center">What We Do ?</h2>
+	<hr>
+</div>
+	<div class="pure-g-r w">
+	<div class="pure-u-1">
+		<a name="WhatWeDo" id="WhatWeDo"></a>
+
+
+		<div class="pure-u-1-4 bb-aspect1 center">
+			<i class="material-icons large">vertical_align_top</i>
+			<h4>Application Support & Maintenance</h4>
+      <hr>
+			<p> I want to lower costs and improve quality of my applications.</p>
+			<div class="card-sub-title">Need application support?</div>
+			<a href="/betabulls/smbs/application-support-maintenance" class="btn btn-primary button-color"> Learn More</a>
+		</div><!-- bb-aspect1 pure-u-1-4 -->
+
+		<div class="pure-u-1-4 bb-aspect1 center">
+			<i class="material-icons large">subtitles</i>
+			<h4>Custom Software Development</h4>
+      <hr>
+			<p>I have a great IDEA and need help with custom software development.</p>
+			<div class="card-sub-title"> Need a developer or whole team?</div>
+			<a href="/betabulls/smbs/custom-software-development" class="btn btn-primary button-color"> Learn More</a>
+		</div><!-- bb-aspect1 pure-u-1-4 -->
+
+		<div class="pure-u-1-4 bb-aspect1 center">
+			<i class="material-icons large">devices</i>
+			<h4>Mobile Enablement</h4>
+      <hr>
+			<p>I want to extent my applications and engage user on mobile devices.</p>
+			<div class="card-sub-title">Need to engage users on mobile?</div>
+      <a href="/betabulls/smbs/mobile-enablement" class="btn btn-primary button-color"> Learn More</a>
+    </div><!-- bb-aspect1 pure-u-1-4 -->
+
+		<div class="pure-u-1-4 bb-aspect1 center">
+			<i class="material-icons large ">linear_scale</i>
+			<h4>Search and Information Discovery</h4>
+      <hr>
+			<p>I have piles of unstructured data and want to discover value.</p>
+			<div class="card-sub-title">Need to discover things among piles of data?</div>
+			<a href="/betabulls/smbs/search-information-discovery" class="btn btn-primary button-color"> Learn More</a>
+		</div><!-- bb-aspect1 pure-u-1-4 -->
+
+		<div class="pure-u-1-4 bb-aspect1 center">
+			<i class="material-icons large ">group_work</i>
+			<h4>Big Data Analytics</h4>
+      <hr>
+			<p>I want to make smarter decisions with Big Data Analytics. </p>
+			<div class="card-sub-title">Need insights from your big data?</div>
+			<a href="/betabulls/smbs/big-data-analytics" class="btn btn-primary button-color"> Learn More</a>
+		</div><!-- bb-aspect1 pure-u-1-4 -->
+
+		<div class="pure-u-1-4 bb-aspect1 center">
+			<i class="material-icons large ">cloud_done</i>
+				<h4>Software Testing</h4>
+        <hr>
+			<p>I want to eliminate suprises for my users with high quality testing.</p>
+			<div class="card-sub-title">Need best experience without surprises?</div>
+			<a href="/betabulls/smbs/software-testing" class="btn btn-primary button-color"> Learn More</a>
+		</div><!-- bb-aspect1 pure-u-1-4 -->
+
+	</div><!-- .pure-u-1 .w -->
+</div><!-- .pure-g-r .w -->
+</div>
+</span>

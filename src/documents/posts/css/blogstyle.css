@@ -1,0 +1,114 @@
+ul#myList {
+    padding: 0;
+}
+.content h3 {
+    font-size: 1.0em;
+    margin: 0;
+    font-family: inherit !important;
+}
+
+.content h3, .content h4 {
+    font-weight: 700;
+    color: #556a7f;
+    line-height: 1.4em;
+    
+    text-transform: uppercase;
+}
+.content p {
+    font-weight: normal !important;
+}
+
+.content p, p.adm a:hover {
+    color: #868f98;
+}
+
+p.adm {
+    color: #868f98;
+    font-weight: 400;
+}
+
+.content p, p.adm {
+    line-height: 1.8em;
+    text-align: left;
+   
+    font-size: 1em;
+    color:#444;
+}
+.categories h6 a {
+    color: #868f98;
+}
+
+.archievs h6 a .categories h6 a .comments h6 a .posts h6 a {
+    font-size: 1.1em;
+    font-weight: 400;
+    line-height: 2em;
+    border-bottom: 1px solid #868f98;
+    text-decoration: none;
+}
+.posts h6 a {
+    color: #868f98;
+}
+.comments h6 a{
+	color: #868f98;
+}
+.archievs h6 a{
+	color: #868f98;
+}
+.categories {
+    margin: 0 0 20px!important;
+}
+
+.categories {
+    margin: 3em 0 0;
+    text-align: left;
+}
+
+.categories {
+    margin: 0 0 20px!important;
+}
+.categories h4, .comments h4 {
+    margin-bottom: -5px!important;
+}
+
+.content h4 {
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+.content h3, .content h4 {
+    font-weight: 700;
+    color: #556a7f;
+    text-align: center;
+    line-height: 1.4em;
+   
+    text-transform: uppercase;
+}
+.categories h4, .comments h4 {
+    margin-bottom: -5px!important;
+}
+.l_g_r h6 {
+    font-size: 14px !important;
+    font-weight: 500;
+    text-decoration: underline;
+    font-family: inherit;
+    padding: 3px;
+}
+#share-buttons img {
+    width: 39px;
+    height: 39px;
+    padding: 3px;
+    border: 0;
+    box-shadow: 0;
+    display: inline;
+}
+.post-content {
+    font-size: 18px;
+    padding: 33px 0;
+    color: #444;
+    clear: both;
+    max-width: 100% !important;
+    margin: auto;
+}
+.content p, p.adm{
+    padding:0px !important;
+}

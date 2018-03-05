@@ -1,0 +1,44 @@
+---
+title: FREETRAIL
+layout: smbs-default
+class: betabulls-enterprise-about
+entPageOrder: 6
+script:
+style:
+url : /smbs/free-trail
+---
+<span class="betabulls-enterprise-risk-free-trial">
+				<div id="headerwrap" class="pure-g-r mobile-enablement">
+	<div class="pure-u-1 center" style="background-color: rgba(0,0,0,0.5); overflow: hidden;height: 300px;">
+		<div class="banner-txt">
+			<h1> Test Quality of our resources before you hire</h1>
+			<h4></h4>
+		</div>
+	</div><!-- pure-u-1-->
+</div><!-- headerwrap -->
+<div style="width: 100%; margin: 0px auto; padding: 0px 0px 0px 0px; text-align: center;">
+	<h2 style="font-weight:500;" align="center">Free Trial</h2>
+	<hr>
+</div>
+<div class="container">
+	<div class="row center">
+		<div class="pure-u-0-1">
+			<div class="pure-g-r w">
+				<h1 style="text-align: center;padding-left: 20px;">Build your Trust with 100%</h1>
+				<p style="text-align: center;">
+					In order to demonstrate the quality of our work, we offer a no cost 40 hour proof
+					of concept and only ask you to move forward with us if you like our work.
+					This way you know exactly what you are getting into before spending any money.
+				</p>
+			</div><!-- .pure-u-1 .center -->
+		</div>
+		<!-- container -->
+		<!-------------------------------------------->
+
+		<div class="pure-g-r ded-hire-form">
+			<iframe class="header-contactus" src="https://form.jotform.me/61326162598460"></iframe>
+		</div><!-- .pure-u-1 .center -->
+		<p class="risk-free-trial-dicl">Disclaimer: BetaBulls looks at long term working relationship with companies that has ongoing and continuous outsourcing needs. The Free Trial is not applicable to short term and one-off software development requirements, and BetaBulls reserves the right to reject offering the free trial.</p>
+	</div>
+</div>
+			</span>

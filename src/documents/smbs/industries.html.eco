@@ -1,0 +1,98 @@
+---
+title: Industries
+layout: smbs-default
+class: betabulls-enterprise-about
+url : /smbs/industries
+entPageOrder: 5
+script:
+style: css/my-custom.css
+---
+			<span class="betabulls-enterprise-custom-software-development">
+				<div id="headerwrap" class="pure-g-r casestudies" >
+	<div class="pure-u-1 center">
+		<div class="banner-txt">
+			<h1>Industries We Serve</h1>
+			<h4></h4>
+		</div>
+	</div><!-- pure-u-1-->
+</div><!-- headerwrap -->
+
+<div class="container PageMargin">
+  <div class="row">
+    <div class="col-md-4">
+    <div class="cust-box-shdw">
+        <img src="img/casestudy/medical-enterprise-management-application.jpg" class="img-responsive arrange">
+        </div>
+    </div>
+    <div class="col-md-8 Margin45">
+        <h2 class="onboard">Medical Enterprise Management Application</h2>
+        <p>Centralizing sales, marketing, service, and practice management into a role-based enterprise management system.</p>
+        <a href="medical-enterprise-management-application.html" class="btn btn-primary button-color"> View More</a>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-8 Margin45">
+        <h2 class="onboard">Investment Planning Web Application</h2>
+        <p>Creating a self-service web application that helps account holders visualize, research options, and<br>make changes to their investment account.</p>
+        <a href="investment-planning-web-application.html" class="btn btn-primary button-color"> View More</a>
+    </div>
+    <div class="col-md-4">
+    <div class="cust-box-shdw">
+        <img src="img/casestudy/investment-planning-web-application.png" class="img-responsive arrange">
+        </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4">
+    <div class="cust-box-shdw">
+        <img src="img/casestudy/social-professional-mentorship-application.png" class="img-responsive arrange">
+        </div>
+    </div>
+    <div class="col-md-8 Margin45">
+        <h2 class="onboard">Social Professional Mentorship Application</h2>
+        <p>A social network for finding mentors for professional projects.</p>
+        <a href="social-professional-mentorship-application.html" class="btn btn-primary button-color"> View More</a>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-8 Margin45">
+      <h2 class="onboard">Log File Analytics</h2>
+      <p>Looking at log files from company servers to discover opportunities for raising revenues and reducing costs.<br></p>
+      <a class="btn btn-primary button-color" href="log-file-analytics.html"> View More</a>
+    </div>
+    <div class="col-md-4">
+    <div class="cust-box-shdw">
+        <img src="img/casestudy/log-analytics-large-1.png" class="img-responsive rearange">
+        </div>
+      </div>
+  </div>
+
+<div class="row ">
+    <div class="col-md-4 " >
+    <div class="cust-box-shdw">
+      <img src="img/casestudy/affiliate-marketing-sales-application.png" class="img-responsive arrange">
+      </div>
+    </div>
+    <div class="col-md-8 Margin45">
+      <h2 class="onboard">Affiliate Marketing Sales Application</h2>
+        <p>Making it simple for online marketers to earn income by finding and promoting great product deals for people to discover.</p>
+        <a href="affiliate-marketing-sales-application.html" class="btn btn-primary button-color"> View More</a>
+    </div>
+  </div>
+</div>
+
+  <div id="r">
+    <div class="pure-g-r" id="yui_patched_v3_18_1_2_1509702022718_720">
+      <div class="pure-u-1 center" id="yui_patched_v3_18_1_2_1509702022718_719">
+        <div class="col-lg-8 col-lg-offset-2" id="yui_patched_v3_18_1_2_1509702022718_718">
+          <h4><b>Ready To Talk ?</b></h4>
+          <a class="btn btn-primary btn-lg button-color" href="#contact" role="button" data-toggle="modal" data-target="#contactModal">Contact Us</a>
+        </div>
+      </div><!-- pure-u-1 -->
+      </div><!-- pure-g-r -->
+  </div><!-- r -->
+</div><!-- container -->
+</span>

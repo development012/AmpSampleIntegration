@@ -1,0 +1,263 @@
+/* ul#myList { */
+    /* padding: 0; */
+/* } */
+/* .content h3 { */
+    /* font-size: 1.0em; */
+    /* margin: 0; */
+    /* font-family: inherit !important; */
+/* } */
+
+/* .content h3, .content h4 { */
+    /* font-weight: 700; */
+    /* color: #556a7f; */
+    /* line-height: 1.4em; */
+    
+    /* text-transform: uppercase; */
+/* } */
+/* .content p { */
+    /* font-weight: 400; */
+/* } */
+
+/* .content p, p.adm a:hover { */
+    /* color: #868f98; */
+/* } */
+
+/* p.adm { */
+    /* color: #868f98; */
+    /* font-weight: 400; */
+/* } */
+
+/* .content p, p.adm { */
+    /* line-height: 1.8em; */
+    /* text-align: left; */
+    /* padding: 1em 0; */
+    /* font-size: 1em; */
+/* } */
+/* .categories h6 a { */
+    /* color: #868f98; */
+/* } */
+
+/* .archievs h6 a .categories h6 a .comments h6 a .posts h6 a { */
+    /* font-size: 1.1em; */
+    /* font-weight: 400; */
+    /* line-height: 2em; */
+    /* border-bottom: 1px solid #868f98; */
+    /* text-decoration: none; */
+/* } */
+/* .posts h6 a { */
+    /* color: #868f98; */
+/* } */
+/* .comments h6 a{ */
+	/* color: #868f98; */
+/* } */
+/* .archievs h6 a{ */
+	/* color: #868f98; */
+/* } */
+/* .categories { */
+    /* margin: 0 0 20px!important; */
+/* } */
+
+/* .categories { */
+    /* margin: 3em 0 0; */
+    /* text-align: left; */
+/* } */
+
+/* .categories { */
+    /* margin: 0 0 20px!important; */
+/* } */
+/* .categories h4, .comments h4 { */
+    /* margin-bottom: -5px!important; */
+/* } */
+
+/* .content h4 { */
+    /* font-size: 1em; */
+    /* margin-bottom: 1em; */
+/* } */
+
+/* .content h3, .content h4 { */
+    /* font-weight: 700; */
+    /* color: #556a7f; */
+    /* line-height: 1.4em; */
+   
+    /* text-transform: uppercase; */
+/* } */
+/* .categories h4, .comments h4 { */
+    /* margin-bottom: -5px!important; */
+/* } */
+/* .l_g_r h6 { */
+    /* font-size: 14px !important; */
+    /* font-weight: 500; */
+    /* text-decoration: underline; */
+    /* font-family: inherit; */
+    /* padding: 3px; */
+/* } */
+
+/* .cover-image, .cover-image-overlay, .section-image, .section-image-overlay { */
+    /* height: 160px !important; */
+    /* min-height: 160px !important; */
+/* } */
+
+/* .section-image-overlay, .cover-image-overlay { */
+    /* display: table-cell; */
+    /* vertical-align: middle; */
+    /* overflow: hidden; */
+    /* padding: 50px; */
+    /* padding: 5%; */
+    /* z-index: 2; */
+/* } */
+/* .section-image, .cover-image { */
+    /* display: table; */
+    /* background-repeat: no-repeat; */
+    /* text-align: center; */
+    /* background-attachment: scroll; */
+    /* background-position: top center; */
+    /* background-color: #e7e7e7; */
+    /* width: 100%; */
+    /* position: relative; */
+    /* vertical-align: top; */
+    /* -webkit-background-size: 100%; */
+    /* -moz-background-size: 100%; */
+    /* -o-background-size: 100%; */
+    /* background-size: 100%; */
+    /* -webkit-background-size: cover; */
+    /* -moz-background-size: cover; */
+    /* -o-background-size: cover; */
+    /* background-size: cover; */
+/* } */
+/* .cover-image-overlay h1, .section-image-overlay h1, .section-image-overlay h2 { */
+    /* font-weight: bold; */
+    /* padding: 0px; */
+    /* color: #fff; */
+    /* font-size: 50px; */
+    /* letter-spacing: 3px; */
+    /* line-height: 60px; */
+    /* margin-bottom: 20px; */
+    /* margin-top: 60px; */
+    /* font-size: 40px!important; */
+    /* margin-top: 20px!important; */
+/* } */
+
+
+/* -----latest changes 10/9/18 */
+ul#myList {
+  padding: 0;
+list-style: none;
+}
+
+
+.content h3 {
+  font-size: 1.0em;
+  margin: 0;
+  font-family: inherit !important;
+}
+
+.content h3, .content h4 {
+  font-weight: 700;
+  color: #556a7f;
+  line-height: 1.4em;
+  text-transform: uppercase;
+}
+
+.content p {
+  font-weight: 400;
+}
+
+.content p, p.adm a:hover {
+  color: #868f98;
+}
+
+p.adm {
+  color: #868f98;
+  font-weight: 400;
+}
+
+.content p, p.adm {
+  line-height: 1.8em;
+  text-align: left;
+  padding: 1em 0;
+  font-size: 1em;
+}
+
+.categories h6 a {
+  color: #868f98;
+}
+
+.archievs h6 a .categories h6 a .comments h6 a .posts h6 a {
+  font-size: 1.1em;
+  font-weight: 400;
+  line-height: 2em;
+  border-bottom: 1px solid #868f98;
+  text-decoration: none;
+}
+
+.posts h6 a {
+  color: #868f98;
+}
+
+.comments h6 a {
+  color: #868f98;
+}
+
+.archievs h6 a {
+  color: #868f98;
+}
+
+.categories {
+  margin: 0 0 20px !important;
+}
+
+.categories {
+  margin: 3em 0 0;
+  text-align: left;
+}
+
+.categories {
+  margin: 0 0 20px !important;
+}
+
+.categories h4, .comments h4 {
+  margin-bottom: -5px !important;
+}
+
+.content h4 {
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+
+.content h3, .content h4 {
+  font-weight: 700;
+  color: #556a7f;
+  line-height: 1.4em;
+  text-transform: uppercase;
+}
+
+.categories h4, .comments h4 {
+  margin-bottom: -5px !important;
+}
+
+.l_g_r h6 {
+  font-size: 14px !important;
+  font-weight: 500;
+  text-decoration: underline;
+  font-family: inherit;
+  padding: 3px;
+}
+
+.categories h6 a:hover {
+  color: #f85c37;
+}
+
+.posts h6 a:hover {
+  color: #f85c37;
+}
+
+.comments h6 a:hover {
+  color: #f85c37;
+}
+.integer, .dapibus, .vitae, .lorem, .Aliquam, .cursus {
+  background: #fff;
+  padding: 2em 1.3em;
+  box-shadow: 0 1px 5px -1px rgba(104, 123, 144, 0.31);
+  border-radius: .3em;
+}
+

@@ -1,0 +1,182 @@
+---
+title: "Articles"
+layout: "page"
+isPage: true
+style: 'css/blogstyle.css'
+url : /pages/articles
+---
+
+<article id="page" class="page">
+	<div class="page-content"><style>
+	.cal-icon{
+		width: 27px;
+		height: 25px;
+		margin: 0 0 -6px 0;
+		fill: rgb(61, 104, 61);
+	}
+	.cal-link{
+		width:100%;display:block;padding: 0 0 13px;
+	}
+		.cal-link a{color:green}
+</style>
+<div class="content">
+	<div class="container">
+	 <div class="load_more">	
+			     <ul id="myList">
+			        <!-- These are our grid blocks -->
+			        <li>
+						<div class="l_g">
+							 <div class="col-md-3 integ "  >
+								<div class="l_g_r">
+									<div class="integer">
+										<h3>Code for me, I'll give you 10%</h3>
+										<p class="adm">Posted by <span>Admin</span>  |   July 16, 2015</p>
+
+										<!--h2>Quotes of the Day</h2-->
+										<p>
+										Despite well intentioned first time entrepreneur's thoughts, code is not lego blocks. Code is still computer science in college course titles, no one thought to change it to computational blocks yet. Yes frameworks, the amount of people coding and superset languages.
+										</p>
+										<a href="/posts/Codeforme" class="link">View More</a>
+									</div>
+								</div>
+							</div>	
+
+							<div class="col-md-3 praesent">
+								<div class="l_g_r">
+									<div class="dapibus">
+										<h3>What is Lean Startup? [RE-POST]</h3>
+										<p class="adm">Posted by <span>Admin</span>  |  6 months ago</p>
+										<a href="/posts/what-is-lean-startup"><img src="/img/lean-thumb.png" class="img-responsive"  alt="wright bothers plane lite idea beta bulls" ></a>
+										<p>A re-post of a great article by <a target="_blank" href="https://thecoderfactory.com/posts/what-is-lean-startup">The Coder Factory.</a> Lean Startup Methodology is a scientific approach to creating and maintaining start-ups.</p>
+										<a href="/posts/what-is-lean-startup" class="link">Read More</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-3 integ">
+								<div class="l_g_r">
+									<div class="dapibus">
+										<h3>Lite Idea</h3>
+										<p class="adm">Posted by <span>Admin</span>  |  4 months ago</p>
+										<a href="/posts/lite-idea"><img src="/img/wright-brother-plane_web.jpg" class="img-responsive" alt="wright bothers plane lite idea beta bulls"></a>
+										<p><strong>Measure twice, cut once</strong>. The Wright Brothers started flying with wood and fabric. Think lite! </p>
+										<a href="/posts/lite-idea" class="link">Read More</a>
+									</div>
+								</div>
+							</div>
+
+							
+
+							
+							<div class="col-md-3 integ">
+								<div class="l_g_r">
+
+									<div class="categories">
+										<h4>Categories</h4>
+										<h6><a href="/pages/articles">Articles</a></h6>
+										<h6><a href="/pages/blogEvents">Events</a></h6>
+										<h6><a href="/pages/resources">Resources</a></h6>
+										
+									</div>
+									<div class="posts">
+										<h4>Popular Posts</h4>
+										<h6><a href="/posts/Codeforme">Code For Me</a></h6>
+										<h6><a href="/posts/lite-idea">Lite Idea</a></h6>
+										<h6><a href="/posts/what-is-lean-startup">What is Lean Startup?</a></h6>
+										<h6><a href="/posts/feedback-types">Feedback Types</a></h6>
+										<h6><a href="/posts/My-trip-to-Bitcamp">My trip to Bitcamp</a></h6>
+									</div>
+									<div class="comments">
+										<h4>Recent Comments</h4>
+										<h6><a href="/posts/what-is-lean-startup">Adam Jhon on A Lean Start Up</a></h6>
+										<h6><a href="/posts/lite-idea">Peter Parker on Lite Idea</a></h6>
+										
+										<h6><a href="/posts/usablityhub">Barry Stark on UsabilityHub</a></h6>
+									</div>
+
+									
+									
+
+								</div>
+							</div>
+							
+						</div>
+						<div class="clearfix"></div>
+					</li>
+					 <li>
+						<div class="l_g">
+							<!--<div class="col-md-3 praesent">
+								<div class="l_g_r">
+									<div class="dapibus">
+										<h2>The Four Steps to the Epiphany</h2>
+										<p class="adm">Posted by <span>Admin</span>  |  4 months ago</p>
+										<a href="/posts/four-steps-to-the-epiphany"><img src="/img/Steve-Blank-The-Four-Steps-to-the-Epiphany.jpg" class="img-responsive" alt=""></a>
+										<p><strong>By Steven Gary Blank</strong>. Read this book to give your startup a chance (or die trying, modified 50Cent album title)</p>
+										<a href="/posts/four-steps-to-the-epiphany" class="link">Read More</a>
+									</div>
+								</div>
+							</div> -->
+							<div class="col-md-3 integ">
+							<div class="l_g_r">
+									<div class="dapibus">
+									
+										<h3>Stop Looking For A Technical Co-founder [RE-POST]</h3>
+										<p class="adm">Posted by <span>Admin</span>  |  2 months ago</p>
+										<a href="/posts/stop-looking-for-a-technical-co-founder"><img src="/img/if-you-pay-peanuts-you-get-monkeys.png" class="img-responsive" alt=""></a>
+										<p>A re-post of Alexey Komissarouk on <a class="techcrunch-green" target="_blank" href="http://techcrunch.com/2012/04/15/stop-looking-for-a-technical-co-founder/">TechCrunch</a>.</p>
+										<a href="/posts/stop-looking-for-a-technical-co-founder" class="link">Read More</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 integ">
+							<div class="l_g_r">
+									<div class="integer">
+										<h3>Feedback Types</h3>
+										<p class="adm">Posted by <span>Admin</span>  |  2 months ago</p>
+										<a href="/posts/feedback-types"><img src="/img/feedback-form.jpg" class="img-responsive" alt=""></a>
+										<p><strong>Not all Feedback is equal.</strong>. Some types are worth more than others but some if better than none.</p>
+										<a href="/posts/feedback-types" class="link">Read More</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 integ">
+								<!--div class="l_g_r">
+									<div class="dapibus">
+										<h3>Lite Idea</h3>
+										<p class="adm">Posted by <span>Admin</span>  |  4 months ago</p>
+										<a href="/posts/lite-idea"><img src="/img/wright-brother-plane_web.jpg" class="img-responsive" alt="wright bothers plane lite idea beta bulls"></a>
+										<p><strong>Measure twice, cut once</strong>. The Wright Brothers started flying with wood and fabric. Think lite! </p>
+										<a href="/posts/lite-idea" class="link">Read More</a>
+									</div>
+								</div-->
+							</div>
+
+							<div class="col-md-3 integ">
+								<div class="l_g_d">
+									<div class="archievs">
+										<h4 >Archives</h4>
+										<h6><a href="/pages/january">January 2015</a></h6>
+										<h6><a href="/pages/february">February 2015</a></h6>
+										<h6><a href="/pages/march">March 2015</a></h6>
+										<h6><a href="/pages/july">July 2015</a></h6>
+										
+									</div>
+									
+								</div>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+					</li>
+			       
+					 
+
+			      </ul>
+				  
+
+			    </div>
+	</div>
+</div>
+
+<br/><br/>
+</div>
+</article>

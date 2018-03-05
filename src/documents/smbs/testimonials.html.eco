@@ -1,0 +1,124 @@
+---
+title: TESTIMONIALS
+layout: smbs-default
+class: betabulls-enterprise-about
+entPageOrder: 4
+script:
+url : /smbs/testimonials
+style: css/ent-testimonials-style.css
+---
+
+<span class="betabulls-enterprise-testimonials">
+				<div id="headerwrap" class="pure-g-r testimonial-s">
+        <h1 class="centered">What Our Clients Are Saying About Us</h1>
+        </div>
+<div id="testimonials-carousel" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#testimonials-carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#testimonials-carousel" data-slide-to="1" class=""></li>
+                    <li data-target="#testimonials-carousel" data-slide-to="2" class=""></li>
+                    <li data-target="#testimonials-carousel" data-slide-to="3" class=""></li>
+                  </ol>
+    <div class="carousel-inner" role="listbox">
+          <div class="carousel-item item active">
+              <div class="content testimonial-card shadow">
+            <h2 class="customh2">Testimonials</h2> 
+                 <p>"BetaBulls did a good job focusing on delivery of the solution and working within our
+                 budget and the inevitable scope creep that occurs when hands-on experience with new things
+                 leads to new, great ideas... BetaBulls had a great attitude and energy and never stopped
+                 working for the end goal."</p>
+                 <p class="quote-from"><b> ━Online Operations Developer, <span class="org">Health Savings Advisor Company</span></b></p>
+              </div>
+          </div>
+          <div class="carousel-item item">
+              <div class="content testimonial-card">
+                  <h2 class="customh2">Testimonials</h2>
+                  <p>"I'm extremely impressed. I had started my own process where you can create your own website, and it's light years behind what they were able to develop. I've been very happy with BetaBulls."</p>
+                  <p class="quote-from"><b> ━Founder, <span class="org">Startup Social Media</span></b></p>
+              </div>
+          </div>
+          <div class="carousel-item item">
+              <div class="content testimonial-card shadow">
+                 <h2 class="customh2">Testimonials</h2>
+                 <p>"I think the quality of the BetaBulls's work is very good. They're very responsive. We give them deadlines to complete projects, and they come in on time."</p>
+                 <p class="quote-from"><b> ━Integration Director, <span class="org">Onboarding System Startup</span></b></p>
+              </div>
+          </div>
+          <div class="carousel-item item">
+              <div class="content testimonial-card shadow">
+                 <h2 class="customh2">Testimonials</h2>
+                 <p>"Requirements were a challenge for us, but BetaBulls was very flexible in terms of absorbing the requirements on the fly and changing things that they had already done at no additional cost. They believe in building relationships – that's the feeling I got."</p>
+                 <p class="quote-from"><b> ━Software Development Manager, <span class="org"> Medical Practice Management Company</span></b></p>
+              </div>
+          </div>
+          <a class="left carousel-control" href="#testimonials-carousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#testimonials-carousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+        </div><!--//carousel-inner-->
+
+      </div><!--//carousel-->
+ <div>
+    <iframe
+      id="JotFormIFrame-73331512676455"
+      onload="window.parent.scrollTo(0,0)"
+      allowtransparency="true"
+      src="https://form.jotform.me/73331512676455"
+      frameborder="0"
+      style="width: 1px;
+      min-width: 100%;
+      height:539px;
+      border:none;"
+      scrolling="no">
+    </iframe>
+    <script type="text/javascript">
+      var ifr = document.getElementById("JotFormIFrame-73331512676455");
+      if(window.location.href && window.location.href.indexOf("?") > -1) {
+        var get = window.location.href.substr(window.location.href.indexOf("?") + 1);
+        if(ifr && get.length > 0) {
+          var src = ifr.src;
+          src = src.indexOf("?") > -1 ? src + "&" + get : src  + "?" + get;
+          ifr.src = src;
+        }
+      }
+      window.handleIFrameMessage = function(e) {
+        var args = e.data.split(":");
+        if (args.length > 2) { iframe = document.getElementById("JotFormIFrame-" + args[2]); } else { iframe = document.getElementById("JotFormIFrame"); }
+        if (!iframe)
+          return;
+        switch (args[0]) {
+          case "scrollIntoView":
+            iframe.scrollIntoView();
+            break;
+          case "setHeight":
+            iframe.style.height = args[1] + "px";
+            break;
+          case "collapseErrorPage":
+            if (iframe.clientHeight > window.innerHeight) {
+              iframe.style.height = window.innerHeight + "px";
+            }
+            break;
+          case "reloadPage":
+            window.location.reload();
+            break;
+        }
+        var isJotForm = (e.origin.indexOf("jotform") > -1) ? true : false;
+        if(isJotForm && "contentWindow" in iframe && "postMessage" in iframe.contentWindow) {
+          var urls = {"docurl":encodeURIComponent(document.URL),"referrer":encodeURIComponent(document.referrer)};
+          iframe.contentWindow.postMessage(JSON.stringify({"type":"urls","value":urls}), "*");
+        }
+      };
+      if (window.addEventListener) {
+        window.addEventListener("message", handleIFrameMessage, false);
+      } else if (window.attachEvent) {
+        window.attachEvent("onmessage", handleIFrameMessage);
+      }
+      </script>
+</div><!-- .pure-u-1 .center -->
+</div>
+</div>
+  </span>

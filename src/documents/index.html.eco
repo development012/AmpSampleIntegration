@@ -1,0 +1,177 @@
+---
+layout: 'default'
+title: 'Interim Cto & Cto Service for Startups'
+script: '/js/home.js'
+description: 'Betabulls combines high level tech skills with a startup cto service to better implement your unique idea. As an interim cto we help you through every step.'
+style: '/css/30se.css'
+---
+
+	<div id="fixedForBetaBulls">
+    <a href="http://betabulls.com/smbs" id="yui_patched_v3_11_0_1_1458257209567_399">
+        <img src="img/ForEnterprise.png" class="img-responsive">
+    </a>
+</div>
+
+<span class="home">
+
+
+    <div id="headerwrap" class="pure-g-r">
+        <div class="pure-u-1 center">
+            <h1 class="homemain">WE ARE YOUR
+                <br/>
+                <strong>INTERIM CTO</strong>
+            </h1>
+            <h2 class="homesub">We Build Apps for startups</h2>
+            <!-- <a href="howitworks.html"><h2><button type="button btn-default btn-xlarge" class="btn btn-success btn-xlarge"><b>How It Works?</b></button></h2></a> -->
+        </div>
+    </div>
+
+
+    <div class="pure-g-r w">
+        <div class="pure-u-1 center">
+
+            <div class="pure-u-1-4 bb-aspect">
+                <%- @getIconmonstrIcon('heart','heartIcon','heart-icon home-icon') %>
+                    <h4>We Love Ideas</h4>
+                    <p>Working with new ideas and start-ups is our passion. Not work.</p>
+            </div>
+            <!-- pure-u-1-4 -->
+
+            <div class="pure-u-1-4 bb-aspect bb-lean">
+                <img class="home-icon leanstartup-icon" src="img/Lean-Startup_icon-pink.png" alt="interim-cto" class="img-responsive" />
+                <h4>We Believe in Lean</h4>
+                <p>Prototype now, full product later. We work very hard to convince you on this model even if you are ready
+                    to spend money on a full product.</p>
+            </div>
+            <!-- pure-u-1-4 -->
+
+            <div class="pure-u-1-4 bb-aspect">
+                <%- @getIconmonstrIcon('crosshair11','mapIcon','map-icon home-icon') %>
+                    <h4>Idea to Product</h4>
+                    <p>We build an awesome, usable product around your idea.</p>
+            </div>
+
+        </div>
+        <!-- .pure-u-1 .center -->
+        <div class="pure-u-1 center">
+            <div class="pure-u-1-4 bb-aspect">
+                <%- @getIconmonstrIcon('wrench20','wrenchIcon','wrench-icon home-icon') %>
+                    <h4>We Support & Maintain</h4>
+                    <p>As your interim cto we make sure your product is up and running. You focus on demos and the path to world
+                        domination.</p>
+            </div>
+            <!-- pure-u-1-4 -->
+
+            <div class="pure-u-1-4 bb-aspect">
+                <%- @getIconmonstrIcon('checkmark11','checkIcon','check-icon home-icon') %>
+                    <h4>Obsessed with Quality</h4>
+                    <p>We are fanatics about frameworks and standards. Result is not just a top notch cto service but a high
+                        quality product at lower cost faster.</p>
+            </div>
+            <!-- pure-u-1-4 -->
+
+            <div class="pure-u-1-4 bb-aspect">
+                <%- @getIconmonstrIcon('compass6','compassIcon','compass-icon home-icon') %>
+                    <h4>Mentorship</h4>
+                    <p>A true interim cto means using our business expertise to mentor you with lean advice and a helping hand.</p>
+            </div>
+            <!-- pure-u-1-4 -->
+        </div>
+        <!-- .pure-u-1 .center -->
+        <div class="pure-u-1 center">
+
+            <div class="pure-u-1-4 bb-aspect">
+                <%- @getIconmonstrIcon('banknote3','banknoteIcon','banknote-icon home-icon') %>
+                    <h4>Most Affordable</h4>
+                    <p>Prototype now, full product later. As a cto service provider, we work hard to convince you on this model
+                        even if you are ready to spend money on a full product.</p>
+            </div>
+            <!-- pure-u-1-4 -->
+        </div>
+        <!-- .pure-u-1 .center -->
+        <br>
+        <br>
+    </div>
+    <!-- container -->
+
+
+
+    <!-- PORTFOLIO SECTION -->
+    <div id="dg">
+        <div class="pure-g-r">
+            <div class="pure-u-1 center">
+                <h4>LATEST WORKS</h4>
+                <br>
+                <div class="pure-u-1-3 home-device-bg phone-height">
+                    <a target="_blank" href="http://neverforgottenapp.com/">
+                        <img src="img/mobile4.png" alt="Never Forgotten iPhone iOS app BetaBulls" class="img-responsive">
+                        <br>
+                        <p>
+                            <strong>Never forgotten</strong> will send alerts to the user with set intervals. This app is very simple
+                            to use and a great help to parents. Users can also add their friends and relatives to receive
+                            the alerts for additional peace of mind.
+                        </p>
+                    </a>
+                </div>
+
+                <div class="pure-u-1-3 home-device-bg">
+
+                    <a target="_blank" href="http://kanguruapp.com/">
+
+                        <img src="img/mobile1.png" alt="Kanguru iPhone iOS app BetaBulls" class="img-responsive">
+
+                        <br>
+                        <p>
+
+                            <strong>Kanguru </strong>app brings new way for mentorship by managing huge Mentor &amp; Mentee network.
+                            Create a time bound Circle to form a team and get or provide the mentorship. Easily manage tasks
+                            and meetings with in the circle. Earn points and badges to measure the performance.
+                        </p>
+                    </a>
+                </div>
+                <div class="pure-u-1 center">
+                    <div class="pure-u-3-4 screen home-device-bg">
+                        <a target="_blank" href="https://vendorvid.com">
+                            <img src="img/vendorvid.png" alt="webrtc opentok HTML5 tokbox" class="img-responsive">
+                            <br>
+                        </a>
+                        <p>
+                            <a target="_blank" href="https://vendorvid.com">
+                                <br>
+                                <strong>VendorVid</strong> provides innovative way of peer to peer video communication for the process
+                                of selecting right vendor for a service. VendorVid platform was implemented using open source
+                                technologies such as
+                                <strong>webrtc</strong>,
+                                <strong>opentok</strong>,
+                                <strong>HTML5</strong> and
+                                <strong>tokbox</strong> etc.
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                </br>
+                <div id="r">
+                    <div class="pure-g-r">
+                        <div class="pure-u-1 center">
+                            <h4>
+                                <b>WANT TO LEARN MORE?
+                                    <b>
+                            </h4>
+
+                            <a href="pages/how-it-works">
+                                <h2>
+                                    <button type="button btn-default btn-xlarge" class="btn btn-primary btn-xlarge cust-btn">
+                                        <b>How It Works</b>
+                                    </button>
+                                </h2>
+                            </a>
+
+                        </div>
+                        <!-- pure-u-1 center -->
+                    </div>
+                    <!-- pure-g-r -->
+                </div>
+                <!-- r wrap -->
+
+
+     

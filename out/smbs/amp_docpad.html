@@ -1,0 +1,834 @@
+<!doctype html>
+
+<html amp lang="en">
+<head>
+    <meta charset="utf-8">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
+    <script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
+    <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+    <script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.1.js"></script>
+    <script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>
+    <title> Betabulls</title>
+    <link rel="canonical" href="sampleamp.amp.html">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <style amp-custom>
+    @font-face {
+    font-family: "Bitstream Vera Serif Bold";
+    src: url("https://maxcdn.bootstrapcdn.com");
+  }
+        .navbar {
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1;
+            background: rgba(45,45,45,.9) none repeat scroll 0 0;
+            border: 0;
+            padding: 17px;
+        }
+      
+
+        .navbar a {
+            text-transform: uppercase;
+            font-weight: 700;
+            color: #777;
+            padding: 10px 15px;
+            position: relative;
+            text-decoration: none;
+            text-align: center;
+            float: right;
+            margin-right: 10px;
+            display: block;
+        }
+
+        .navbar a:first-child {
+            float: left;
+        }
+
+
+
+
+        .navbar a:hover {
+            background-color: transparent;
+            color: white;
+
+
+        }
+
+        .img_responsive {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin-top: -8px;
+
+        }
+
+        img {
+            width: 50px;
+            height: 50px;
+
+        }
+
+        #form span {
+            color: #333;
+        }
+
+        .span {
+            color: #d0d0d0;
+            float: left;
+            font-size: 23px;
+            margin: 0;
+        }
+
+        span img {
+            margin-top: -11px;
+            margin-bottom: 5px;
+        }
+
+        .move {
+            position: right;
+        }
+
+        .bannertext {
+            position: absolute;
+            text-align: center;
+            position: absolute;
+            color: white;
+            margin: 180px 0px 0px 300px;
+        }
+
+        .img_head {
+            width: 100%;
+            height: 400px;
+            ;
+        }
+
+        .mytext h2 {
+            padding-top: 8px;
+            padding-bottom: 3px;
+            font-size: 52px;
+            line-height: 1.23;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            color: #000;
+            text-align: center;
+            /* / margin-bottom: 5px; / */
+            margin: 30px;
+        }
+
+        .super {
+            height: 100%;
+            width: 80%;
+            position: center;
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .stream {
+            font-size: 24px;
+            line-height: 1.5;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            color: #000;
+            max-width: 55%;
+            margin-left: auto;
+            text-align: center;
+            margin-right: auto;
+            margin-bottom: 60px;
+            margin-top: 45px;
+        }
+
+        amp-youtube {
+            width: 88%;
+            height: 50%;
+            margin-left: 15%;
+            margin-top: 0%;
+        }
+        .mrg-btm-100{
+            margin-bottom: 100px;
+        }
+        #How-it-works,
+        #contact,
+        #news {
+            padding-top: 25px;
+            padding-bottom: 25px;
+        }
+
+        .btn {
+            color: #ffffff;
+            background-color: #2588fb;
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+            line-height: 60px;
+            border: 0 none;
+            font-size: 16px;
+            padding-left: 60px;
+            padding-right: 60px;
+            -webkit-appearance: none;
+            font-weight: 700;
+            background: none;
+            cursor: pointer;
+            box-sizing: content-box;
+        }
+
+        amp-accordion {
+
+            line-height: 1.35;
+            padding: 27px 50px 27px 0;
+            margin-left: 100px;
+            background-color: white;
+            border: transparent;
+        }
+
+
+        amp-accordion h2{
+            font-family: 'Roboto', sans-serif;
+            color: #333;
+            font-size: 25px;
+            font-weight: 100;
+        }
+
+        /* amp-accordion p {
+            font-size: 20px;
+            color: grey;
+
+        } */
+
+        /* .accborder {
+            border-top: 1px solid #eee;
+        } */
+
+
+
+
+        #img-main {
+            width: 80%;
+            height: 540px;
+            margin-left: 150px;
+            background-color: white;
+        }
+
+        #img-main1 {
+            width: 49%;
+            height: 400px;
+            float: left;
+            background-color: rgb(151, 20, 20);
+            margin-right: 10px;
+        }
+
+        #img-main2 {
+            width: 49%;
+            height: 195px;
+            margin-bottom: 10px;
+            background-color: #000;
+            float: left;
+        }
+
+        #img-main3 {
+            width: 49%;
+            height: 195px;
+            background-color: #2588fb;
+            float: left;
+        }
+
+        .img-mainimg1 {
+            width: 100%;
+            height: 400px;
+
+        }
+
+        .img-mainimg2 {
+            width: 100%;
+            height: 195px;
+
+        }
+
+        .img-mainimg3 {
+            width: 100%;
+            height: 195px;
+
+        }
+
+        .youtube {
+            margin-left: 51%;
+            height: 200px;
+            width: 450px;
+        }
+
+        .whtamp {
+            padding-bottom: 6px;
+            font-size: 20px;
+            line-height: 1.55;
+            font-family: 'Roboto', serif;
+            font-weight: 300;
+            color: #000;
+            display: block;
+            text-align: left;
+        }
+        .whtamp p 
+        {text-align:justify;
+        margin-bottom:10px;
+        font-family: 'Roboto', sans-serif;
+    line-height: 28px;
+    font-size: 18px;
+        }
+
+        .frst_container {
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 0;
+            width: 100%;
+            border: 0;
+            box-sizing: content-box;
+            display: block;
+            clear: both;
+        }
+
+        .col-6 {
+            max-width: 560px;
+        }
+
+        .col {
+            display: inline;
+            float: left;
+            margin-left: 20px;
+            margin-right: 20px;
+            width: 100%;
+        }
+
+        .spc {
+            margin-top: 25%;
+        }
+
+        .col-sm-3 {
+            left: 15px;
+            width: 25%;
+            float: left;
+        }
+
+        .a-container {
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 0;
+            width: 100%;
+            margin-bottom:360px;
+        }
+
+        .numberwrapper {
+            position: relative;
+            z-index: -1;
+        }
+
+        .number {
+            position: relative;
+            z-index: 1;
+            width: 34px;
+            height: 34px;
+            background-color: #222;
+            border-radius: 100%;
+            border: 2px solid #fff;
+            border-width: 2px;
+        }
+
+        .digit {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            text-align: center;
+            transform: translateY(-50%);
+            color: #fff;
+        }
+
+        .name_xs {
+            font-size: 16px;
+            line-height: 1.35;
+        }
+
+        .t-name {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            color: #fff;
+        }
+
+        .a_line {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: -40px;
+            transform: translateY(-50%);
+            background-color: #222;
+            height: 2px;
+
+        }
+
+        .p_height {
+            font-size: 18px;
+            text-align: left;
+            margin-top: 15px;
+            margin-right: 15px;
+            line-height: 25px;
+        }
+
+        .heig {
+            font-size: 25px;
+            margin-top: 5px;
+        }
+
+        h3 {
+            font-size: 24px;
+        }
+
+        my-margin {
+            margin: 10px 10px 10px 10px;
+        }
+
+        my-line {
+            height: 2px;
+            background-color: #e6e6e6;
+        }
+        .latestchan{
+            margin-left: -136px;
+    margin-right: 100px;
+    max-width: 100%;
+    margin-top: 5%;
+        }
+      .ampwork-img {
+        margin: 0px 312px;
+      }
+      .img-slide {margin-top:80px;}
+      .logo{float: left;}
+      .no-text-dec:hover {background-color: none;}
+      .footer{padding:10px 0;background-color: #000;color:#909090;margin-top: 30%;}
+      .footer p {text-align: center;}
+      amp-social-share{
+        border-radius: 70px;
+      }
+
+/* css for forms */
+#form
+
+{
+    height: 300px;
+}
+    #form input[type=text]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+        position: relative;
+    opacity: 10;
+    z-index: 999;
+    
+}
+
+#form label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+#form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin-top: 10px;
+   
+}
+
+#form button:hover {
+    background-color: #45a049;
+}
+#formfieldset
+{
+    margin-top: 50px;
+    padding: 20px;
+}
+      /* Accordian css */
+
+      
+.half {
+  float: left;
+  width: 90%;
+  padding: 0 1em;
+}
+/* Acordeon styles */
+.tab {
+  position: relative;
+  margin-bottom: 1px;
+  width: 105%;
+  color: #000;
+  overflow: hidden;
+}
+input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+.plusIcon {
+    position: relative;
+    display: block;
+    padding: 0 0 0 1em;
+    background: #fff;
+    border-top: 1px solid #ccc;
+    font-weight: bold;
+    line-height: 5;
+    cursor: pointer;
+    font-size: 20px
+}
+
+.tab-content {
+  max-height: 0;
+  overflow: hidden;
+  background: #fff;
+  transition: max-height .35s;
+}
+
+.tab-content p {
+   font-family: 'Roboto', sans-serif;
+    line-height: 28px;
+    font-size: 18px;
+}
+/* :checked */
+input:checked ~ .tab-content {
+  max-height: 10em;
+}
+/* Icon */
+.plusIcon::after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 33px;
+    display: block;
+    width: 3em;
+    height: 3em;
+    line-height: 3;
+    text-align: center;
+    transition: all .35s;
+} 
+input[type=checkbox] + label::after {
+  content: "+";
+}
+input[type=radio] + label::after {
+  content: "\25BC";
+}
+input[type=checkbox]:checked + label::after {
+  transform: rotate(315deg);
+}
+input[type=radio]:checked + label::after {
+  transform: rotateX(180deg);
+}
+.socialshare{
+text-align: center;
+margin-bottom: 10px;
+}
+.cust_fnt{
+    text-align: center;
+        padding: 18px;
+        font-family: 'Roboto', sans-serif;
+        line-height: 40px;
+    font-size: 24px;
+}
+/*Header img*/
+.doc_header {
+    height: 100vh;
+    background-color: #000;
+    overflow: hidden;
+    position: relative;
+}
+.doc_header_bg {
+    min-height: 100vh;
+}
+.doc_header_inner {
+  position: absolute;
+  width: 85vw;
+  max-width: 64rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-bottom: 2rem;
+  text-align: center;
+}
+h1.doc_header_title {
+  font: bold 5.625rem/1.1em 'Open Sans', sans-serif;
+  color: #fff;
+  letter-spacing: -0.125rem;
+  margin: 0 auto 1rem auto;
+  text-shadow: 0 0.0625rem 0.1875rem rgba(0, 0, 0, .8);
+}
+@media (max-width: 35rem){
+  h1.doc_header_title {
+    font-size: 12vw;
+  }
+}
+p.doc_header_text {
+  font-family: 'Libre Baskerville';
+  line-height: 1.9;
+  color: #A8A8A8;
+  margin: 0 auto;
+  width: 70%;
+  text-shadow: 0 0.0625rem 0.125rem rgba(0, 0, 0, .5);
+}
+.doc_header_text span,
+.doc_header_text a {
+  color: #fff;
+}
+.doc_header_inner hr {
+  width: 60%;
+  margin: 1.125rem auto 1.5rem auto;
+  border-color: #2F2D2E;
+  border-color: rgba(150, 150, 150, .1);
+}
+    </style>
+
+</head>
+ <body>
+ <div class="navbar">
+        <p>
+            <a href="sampleamp.amp.html" class="no-text-dec">
+                <amp-img src="img/amp/betabulls_logo.png" class="img_responsive logo" height="30" width="160"></amp-img>
+            </a>
+        </p>
+        <a href="#form">Contact Us</a>
+        <a href="#news">News</a>
+        <a href="#contact">Amp samples</a>
+        <a href="#whatisamp">What is amp</a>
+        <a href="#How-it-works">How it works</a>
+        <a class="active" href="#home">Home</a>
+    </div>
+      <div class="doc_header">
+    <amp-img src="img/amp/amp-header.png" width="800" height="400" layout="responsive" class="doc_header_bg"></amp-img>
+    <div class="doc_header_inner">
+            <h1 class="doc_header_title">We Develop and Manage AMP Versions of Your Website</h1>
+            <p class="doc_header_text">Affordable Accelerated Mobile Pages (AMP) Conversion Service</p>
+            <hr>
+    </div>
+</div>
+    <div id="whatisamp" class="mytext">
+        <h2>What is AMP</h2>
+            <div class="frst_container">
+                <div class="col-6 col">
+                    <div class="whtamp">
+                        <p>The AMP Project is an open-source initiative aiming to make the web better for all. The project enables
+                            the creation of websites that are consistently fast, beautiful and high-performing.
+                            <br> Using Google servers, your content is cached and ready to display at a moments notice. AMP has
+                            been proven to increase conversions and decrease bounce rate for all types of businesses including
+                            eCommerce.
+                            <br> AMP is not a replacement of your existing websites, it's an additional lightweight version of
+                            it. We're experts in AMP development and can help you launch an AMP version of your website in
+                            under 10 days.
+                        </p>
+                    </div>
+                </div>
+                <div class="col col-6">
+                    <amp-youtube class="mrg-btm-100" width="60" height="30" layout="responsive" data-videoid="lBTCB7yLs8Y">
+                    </amp-youtube>
+                </div>
+            </div>
+    </div>
+
+
+    <div id="How-it-works" class="mytext clear-fix">
+        <h2>How AMP works</h2>
+        <amp-img class="super ampwork-img" src="img/amp/ampstepsimageonly.png" height="400" width="800"></amp-img>
+    </div>
+
+    <div id="FAQ" class="mytext">
+        <h2>FAQ</h2>
+        <amp-accordion disable-session-states>
+           <section class="accborder">
+                <h3 class="cust_fnt">What is the Accelerated Mobile Pages project?</h3>
+                <p>AMP ( Accelerated Mobile Pages )Project is an open source platform derived out of the need to upgrade the entire mobile content system. Increasing more each year users expect content load speeds to be less and less. Accelerated Mobile Pages are designed for nearly instant load times benefiting all mobile users, advertisers, and developers.</p>
+            </section>
+            <section class="accborder">
+                <h3 class="cust_fnt">How does AMP for Ecommerce work? </h3>
+               <p>Customers will be able to order goods and service just like normal only difference is they we’ll find their choices at lighting speed. AMP badge doesn’t guarantee better page rank yet, but sites with AMP badges are receiving 20-40% more clicks.</p>
+            </section>
+            <section class="accborder">
+                <h3 class="cust_fnt">Does AdWords work with AMP?</h3>
+                <p>Of Course ! With no major changes your current ad campaigns with more effectively convert clicks into conversions.
+                </p>
+            </section>
+            <section class="accborder">
+                <h3 class="cust_fnt">Aren’t there Free AMP plugins for website builders?</h3>
+                <p>AMP plugins are made to convert average elements on average sites. The compromise in both site layout and quality may do the opposite of your intentions. Indirect conversion into AMP will intact deter users.</p>
+            </section>
+            <section class="accborder">
+                <h3 class="cust_fnt">How can I convert my site to AMP?</h3>
+                <p>Easy! Contact us for a free quote and one of our AMP experts is waiting to get your conversion started.
+                </p>
+            </section>               
+        </amp-accordion>
+
+    </div>
+
+
+    <div id="contact" class="mytext">
+        <h2>Express AMP Developers</h2>
+        <div class="stream">We are obsessed with mobile page speed optimization! Our skilled team of AMP experts can easily convert the average website to AMP in under 10 days.</div>
+        <div class="a-container">
+
+
+            <div class="row my-margin">
+                <div class=" col-sm-3">
+                    <div class="numberwrapper">
+                        <div class="number">
+                            <div class="digit t-name name_xs">1</div>
+                        </div>
+                        <div class="a_line my-line"></div>
+                    </div>
+                    <h3>Quote</h3>
+                    <p class="p_height">Fill out the quote request form at the bottom of this page. A Beta Bulls AMP expert will analyze your existing site. Because all sites have different requirements, we will decide the best plan of action in conquering your unique AMP conversion.
+                    </p>
+                </div>
+                <div class=" col-sm-3">
+                    <div class="numberwrapper">
+                        <div class="number">
+                            <div class="digit t-name name_xs">2</div>
+                        </div>
+                        <div class="a_line my-line"></div>
+                    </div>
+                    <h3>Develop</h3>
+                    <p class="p_height">We design your AMP layout without loosing the look and feel of your brand. Your current website content will be replicated and implemented in your new AMP version. Each site will be synced keeping your amp version always up to date.
+                    </p>
+                </div>
+                <div class=" col-sm-3">
+                    <div class="numberwrapper">
+                        <div class="number">
+                            <div class="digit t-name name_xs">3</div>
+                        </div>
+                        <div class="a_line my-line"></div>
+                    </div>
+                    <h3>Validate</h3>
+                    <p class="p_height">Upon completion we will not only deliver an AMP verification certificate but help you notify Google your are now fully AMP ready.
+                    </p>
+                </div>
+                <div class=" col-sm-3">
+                    <div class="numberwrapper">
+                        <div class="number">
+                            <div class="digit t-name name_xs">4</div>
+                        </div>
+
+                    </div>
+                    <h3>Get Your Badge</h3>
+                    <p class="p_height">You will now receive the coveted lighting-bolt badge next to your search results. Not just Google but Bing, Twitter and LinkedIn recognizes your new badge. All that’s left is higher CTR, better customer engagement and best of all more conversions!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="news" class="mytext">
+        <h2 class="spc">5 Misconceptions About AMP Debunked!</h2>
+        <div class="latestchan">
+        <amp-youtube width="60" height="30" layout="responsive" data-videoid="lBTCB7yLs8Y">
+        </amp-youtube>
+    </div>
+
+    </div>
+    <!-- <div id="img-main" class="mytext">
+        <h2>Top AMP CaseStudies</h2>
+        <div id="img-main1">
+            <amp-img class="img-mainimg1" src="img/amp/download.jpg" height="405px"></amp-img>
+
+        </div>
+        <div id="img-main2">
+            <amp-img class="img-mainimg2" src="img/amp/download1.jpg" height="200px"></amp-img>
+
+        </div>
+        <div id="img-main3">
+            <amp-img class="img-mainimg3" src="img/amp/download2.jpg" height="200px"></amp-img>
+
+        </div>
+    </div> -->
+    <div class="frst_container mytext">
+        <div class="col-6 col" >
+                <amp-img src="img/ent-img/topfiz-phn.png" width="60" height="90" layout="responsive"> </amp-img>
+            </div>
+        <div class="col-6 col">
+            <h2>Glow Loans</h2>
+            <p>Glow Loans specializes in connecting you with fast and easy personal loans. Our system make finding cash when you need it simple with our short application forms and 24/7 online service. Our fine tuned process will connect you the the best lender for your unique financial situation from the comfort of your home!</p>
+            </div>
+    </div>
+    <div class="frst_container mytext">
+            <div class="col-6 col" >
+                <h2>Top Fiz</h2>
+                <p>Top Fiz will have a solution to the product or service you are searching for. Easy to Find. Fast to Contact.</p>
+                </div>
+            <div class="col-6 col">
+                    <amp-img src="img/ent-img/glowloans-phne.png" width="200" height="120" layout="responsive"> </amp-img>
+                </div>
+        </div>
+        
+     <!-- id= "contact-us" -->
+     <div class="frst_container mytext">
+         <div class="col-6 col" >
+             <h2>START MY AMP CONVERSION</h2>
+             <p>After every submitted form we quickly review your request and reply with a thorough project plan.</p>
+             <br><br>
+              <p>If you have any additional questions you can list them within the notes field.</p>
+                    <br><br>
+                   <p>Let’s Get AMP’d!</p>
+         </div>
+         <div class="col-6 col">
+     <div id="form">
+        <form method="post" action-xhr="betabulls.com/smbs" target="_top">
+            <fieldset id="formfieldset">
+                <label for="name">Name   </label>
+                    
+                    <input type="text" name="name" id="name" required>
+             <br>
+                <label for="email"> Email:</label>
+                    <input type="text" name="email" id="email" required>
+              <br>
+                <button>Submit</button>
+            </fieldset>
+            <div submit-success>
+                <template type="amp-mustache">
+                    Subscription successful!
+                </template>
+            </div>
+            <div submit-error>
+                <template type="amp-mustache">
+                    Subscription failed!
+                </template>
+            </div>
+        </form>
+        </div>
+    </div>
+    </div>
+    <div class="footer">
+        <div class="socialshare">
+            <amp-social-share type="linkedin" width="40" height="34"
+            data-param-text="Hello world"
+            data-param-url="#">
+          </amp-social-share>
+          <amp-social-share type="twitter" width="40" height="34"
+            data-param-text="Hello world"
+            data-param-url="#">
+          </amp-social-share>
+          <amp-social-share type="facebook" width="40" height="34"
+          data-param-text="Hello world"
+          data-param-url="#">
+        </amp-social-share>
+        <amp-social-share type="pinterest" width="40" height="34"
+        data-param-text="Hello world"
+        data-param-url="#">
+      </amp-social-share>
+        </div>
+        <p>@ 2018 BetaBulls </p>
+    </div>
+  </body>
+   </html>
