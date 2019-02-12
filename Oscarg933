@@ -1,0 +1,146 @@
+Skip to content
+Your account has been flagged.
+Because of that, your profile is hidden from the public. If you believe this is a mistake, contact support to have your account status reviewed.
+
+saas sitemap
+Repositories0
+Code17K
+Commits487
+Issues24
+Marketplace0
+Topics0
+Wikis57
+Users0
+Languages
+7,128 HTML
+2,298 Text
+2,167 Gettext Catalog
+861 Python
+543 XML
+480 Markdown
+427 CSV
+213 JSON
+173 SQL
+160 PHP
+Advanced search 
+Showing 17,061 available code results 
+@LuisMartinSerradilla
+LuisMartinSerradilla/Quasinovo – sitemap_searches.map
+Showing the top two matches Last indexed on Jul 14, 2018
+{
+	"version": 3,
+	"file": "../../scss/modules/sitemap_searches.css",
+	"sources": [
+		"../../scss/modules/sitemap_searches.scss",
+		"../../css/original/sitemap_searches.css"
+	],
+	"sourcesContent": [
+@fluagen
+fluagen/analytics – ReportorSiteService.java
+Showing the top 10 matches Last indexed on Jun 27, 2018
+Java
+			calisSite.setChildSitesMap(null);
+			siteMap.put("calis", calisSite);
+			
+			
+			// 共享域Site
+			saasSite.setId("saas");
+			allSaasSite.setChildSitesMap(null);
+			saasList.add("allSaas");
+			siteMap.put("allSaas", allSaasSite);
+			saasMap.put("allSaas", allSaasSite);
+@fluagen
+fluagen/analytics – site.htm
+Showing the top six matches Last indexed on Jun 27, 2018
+HTML
+<div class='control-bar site'>
+<!--# 
+	var saasSite = null;
+	var libSite = null;
+	var ALLSITE = "";
+	if(siteMap.containsKey("saas")) {
+		var site = siteMap.get("saas");
+		saasSite = site;
+		var id = site.id;
+@any25
+any25/doorgets – configurationView.php
+Showing the top two matches Last indexed on Nov 8, 2018
+PHP
+            'analytics'     => $this->doorGets->__('Google analytics'),
+            'sitemap'       => $this->doorGets->__('Plan du site'),
+            //'backups'       => $this->doorGets->__('Sauvegardes'),
+            // 'check'         => $this->doorGets->__('Paiement par chèque'),
+            // 'cash'          => $this->doorGets->__('Paiement en liquide'),
+            'saas'          => $this->doorGets->__('Cloud'),
+@fluagen
+fluagen/analytics – ReportorService.java
+Showing the top six matches Last indexed on Jun 27, 2018
+Java
+			Site all = cache.siteMap.get(ID_TOPSITE_ALL);
+			Site calis = cache.siteMap.get(ID_TOPSITE_CALIS);
+			
+			Site saas = cache.siteMap.get(ID_TOPSITE_SAAS);
+			List<Site> saasSiteChild = new ArrayList<Site>(cache.saasSiteChildMap.values());
+			saas.setChildren(saasSiteChild);
+			
+			Site lib = cache.siteMap.get(ID_TOPSITE_LIB);
+			List<Site> libSiteChild = new ArrayList<Site>(cache.libSiteChildMap.values());
+@doorgets
+doorgets/CMS – configurationView.php
+Showing the top two matches Last indexed on Jun 30, 2018
+PHP
+            'analytics'     => $this->doorGets->__('Google analytics'),
+            'sitemap'       => $this->doorGets->__('Plan du site'),
+            //'backups'       => $this->doorGets->__('Sauvegardes'),
+            // 'check'         => $this->doorGets->__('Paiement par chèque'),
+            // 'cash'          => $this->doorGets->__('Paiement en liquide'),
+            'saas'          => $this->doorGets->__('Cloud'),
+@zhoutanxin
+zhoutanxin/OfficialSite – BaseApp.java
+Showing the top two matches Last indexed on Jul 2, 2018
+Java
+import com.enation.app.base.core.service.impl.cache.SitemapCacheProxy;
+import com.enation.app.base.core.service.solution.impl.SqlExportService;
+import com.enation.eop.resource.impl.cache.ThemeUriCacheProxy;
+    public void saasInstall() {
+		for (int i = 0; i < tables.size(); i++)
+			baseDBRouter.createTable(tables.get(i));
+@PanJianNan
+PanJianNan/gws – BaseApp.java
+Showing the top two matches Last indexed on Jul 4, 2018
+Java
+import com.enation.app.base.core.service.impl.cache.SitemapCacheProxy;
+import com.enation.app.base.core.service.solution.impl.SqlExportService;
+import com.enation.eop.resource.impl.cache.ThemeUriCacheProxy;
+    public void saasInstall() {
+        for (int i = 0; i < tables.size(); i++)
+            baseDBRouter.createTable(tables.get(i));
+@streamdata-gallery-topics
+streamdata-gallery-topics/sites – apis.md
+Showing the top two matches Last indexed on Aug 28, 2018
+Markdown
+  your websites SEO through crawl data and log analysis.    Optimize your website
+  and see the organic traffic results youve been seeking. Founded in 2012, Botify
+  is a SaaS SEO platfo...
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28561-botify.jpg
+  humanURL: http://www.botify.com
+  baseURL: https://api.botify.com//v1
+  tags: SaaS, Technology, Enterprise, internet, Bots, Search, API Provider, API Service
+@bbogeul
+bbogeul/illume – 5c091501a12915f2457e6e9da3de56ddfb9e998d.json
+Showing the top match Last indexed on Jun 27, 2018
+JSON
+{"metadata":{"usedHelpers":[],"marked":[],"modules":{"imports":[],"exports":{"exported":[],"specifiers":[]}}},"options":{"filename":"/server/sitemaps.js","filenameRelative":"/server/sitemaps.js","env":{},"retainLines":false,"highlightCode":true,"suppressDeprecationMessages":false,"presets":[],"plugins":[[[],{"polyfill":false}],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{"loose":true}],[[],{"loose":true}],[[],null],[[],{"loose":true}],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{"loose":true}],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null]],"ignore":[],"code":true,"metadata":true,"ast":false,"comments":true,"compact":false,"minified":false,"sourceMap":true,"sourceMaps":true,"sourceMapTarget":"/server/sitemaps.js.map","sourceFileName":"/server/sitemaps.js","babelrc":false,"sourceType":"module","moduleIds":false,"passPerPreset":false,"basename":"sitemaps"},"ignored":false,"code":"sitemaps.add('/sitemap.xml', function () {\n  // required: page\n  // optional: lastmod, changefreq, priority, xhtmlLinks, images, videos\n  return [{ page: 'http://www.illumeweb.com/', lastmod: new Date().getTime() }, { page: 'http://www.illumeweb.com/about-illumeinc', lastmod: new Date().getTime() }, { page: 'http://www.illumeweb.com/about-hybrid-apps', lastmod: new Date().getTime() }, { page: 'http://www.illumeweb.com/work-with-us', lastmod: new Date().getTime() }, { page: 'http://www.illumeweb.com/how-we-work', lastmod: new Date().getTime() }, { page: 'http://www.illumeweb.com/our-work', lastmod: new Date().getTime() }, { page: 'http://www.illumeweb.com/what-we-do', lastmod: new Date().getTime() }];\n});","ast":null,"map":{"version":3,"sources":["/server/sitemaps.js"],"names":[],"mappings":"AAAA,SAAS,GAAT,CAAa,cAAb,EAA6B,YAAW;;;AAGtC,SAAO,CACL,EAAE,MAAM,2BAAR,EAAqC,SAAS,IAAI,IAAJ,GAAW,OAAX,EAA9C,EADK,EAEJ,EAAE,MAAM,0CAAR,EAAoD,SAAS,IAAI,IAAJ,GAAW,OAAX,EAA7D,EAFI,EAGE,EAAE,MAAM,4CAAR,EAAsD,SAAS,IAAI,IAAJ,GAAW,OAAX,EAA/D,EAHF,EAIL,EAAE,MAAM,uCAAR,EAAiD,SAAS,IAAI,IAAJ,GAAW,OAAX,EAA1D,EAJK,EAKL,EAAE,MAAM,sCAAR,EAAgD,SAAS,IAAI,IAAJ,GAAW,OAAX,EAAzD,EALK,EAOF,EAAE,MAAM,mCAAR,EAA6C,SAAS,IAAI,IAAJ,GAAW,OAAX,EAAtD,EAPE,EAQL,EAAE,MAAM,qCAAR,EAA+C,SAAS,IAAI,IAAJ,GAAW,OAAX,EAAxD,EARK,CAAP;AAUD,CAbD","file":"/server/sitemaps.js.map","sourcesContent":["sitemaps.add('/sitemap.xml', function() {\n  // required: page\n  // optional: lastmod, changefreq, priority, xhtmlLinks, images, videos\n  return [\n    { page: 'http://www.illumeweb.com/', lastmod: new Date().getTime() },\n     { page: 'http://www.illumeweb.com/about-illumeinc', lastmod: new Date().getTime() },\n           { page: 'http://www.illumeweb.com/about-hybrid-apps', lastmod: new Date().getTime() },\n    { page: 'http://www.illumeweb.com/work-with-us', lastmod: new Date().getTime() },\n    { page: 'http://www.illumeweb.com/how-we-work', lastmod: new Date().getTime() },\n    \n       { page: 'http://www.illumeweb.com/our-work', lastmod: new Date().getTime() },  \n    { page: 'http://www.illumeweb.com/what-we-do', lastmod: new Date().getTime() }\n  ];\n});"]},"hash":"5c091501a12915f2457e6e9da3de56ddfb9e998d"}
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Press h to open a hovercard with more details.
